@@ -1,0 +1,158 @@
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\DemonAttack.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\DemonFly.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\DemonIdle.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog 1.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog1.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog10.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog2.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog3.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog4.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog5.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog6.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog7.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog8.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Diyalog9.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Fireball.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Font.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 2.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 2.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 3.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 3.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 4.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 4.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 5.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 5.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 6.png
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Sahne 6.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton Attack.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton Dead.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton Hit.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton Idle.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton React.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\Skeleton Walk.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_AttackCombo2hit.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_CrouchAttack.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_CrouchFull.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_CrouchWalk.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Dash.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Death.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Fall.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Hit.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Idle.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Jump.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_JumpFallInbetween.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_Run.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_SlideFull.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Content\_TurnAround.xnb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Betrayal.exe
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Betrayal.deps.json
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Betrayal.runtimeconfig.json
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Betrayal.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\Betrayal.pdb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\MonoGame.Framework.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\NVorbis.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\mgcb.tool.restore
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.csproj.AssemblyReference.cache
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfoInputs.cache
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfo.cs
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.csproj.CoreCompileInputs.cache
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.csproj.Up2Date
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\refint\Betrayal.dll
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.pdb
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\Betrayal.genruntimeconfig.cache
+c:\Users\malat\Desktop\Gruesome-Betrayal-v2-main\Betrayal\obj\Debug\net8.0\ref\Betrayal.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\mgcb.tool.restore
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\refint\Betrayal.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.pdb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog 1.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 2.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 3.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 4.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 5.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 6.png
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\DemonAttack.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\DemonFly.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\DemonIdle.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog1.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog10.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog2.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog3.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog4.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog5.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog6.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog7.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog8.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Diyalog9.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Fireball.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Font.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 2.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 3.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 4.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 5.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Sahne 6.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton Attack.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton Dead.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton Hit.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton Idle.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton React.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\Skeleton Walk.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_AttackCombo2hit.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_CrouchAttack.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_CrouchFull.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_CrouchWalk.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Dash.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Death.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Fall.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Hit.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Idle.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Jump.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_JumpFallInbetween.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_Run.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_SlideFull.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Content\_TurnAround.xnb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Betrayal.exe
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Betrayal.deps.json
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Betrayal.runtimeconfig.json
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Betrayal.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\Betrayal.pdb
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\NVorbis.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.csproj.AssemblyReference.cache
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfoInputs.cache
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfo.cs
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.csproj.CoreCompileInputs.cache
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.csproj.Up2Date
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\Betrayal.genruntimeconfig.cache
+C:\Users\malat\Documents\Gruesome Betrayal\Betrayal\obj\Debug\net8.0\ref\Betrayal.dll
