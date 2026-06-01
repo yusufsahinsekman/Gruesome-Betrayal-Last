@@ -300,11 +300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Gruesome-Betrayal-Last-main\\Betrayal\\Betrayal.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\College\\Second Year\\Second Semester\\Game Programming 2\\Gruesome-Betrayal-Last\\Betrayal\\Betrayal.csproj",
       "projectName": "Betrayal",
-      "projectPath": "C:\\Users\\User\\Desktop\\Gruesome-Betrayal-Last-main\\Betrayal\\Betrayal.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\College\\Second Year\\Second Semester\\Game Programming 2\\Gruesome-Betrayal-Last\\Betrayal\\Betrayal.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Gruesome-Betrayal-Last-main\\Betrayal\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\College\\Second Year\\Second Semester\\Game Programming 2\\Gruesome-Betrayal-Last\\Betrayal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

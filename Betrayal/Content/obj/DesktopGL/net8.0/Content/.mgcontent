@@ -4,48 +4,48 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_AttackCombo2hit.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchAttack.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchFull.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchWalk.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Dash.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Death.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Fall.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Hit.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Idle.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Jump.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_JumpFallInbetween.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Run.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_SlideFull.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_TurnAround.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/background_music.mp3</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonAttack.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonFly.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonIdle.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog1.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog10.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog2.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog3.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog4.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog5.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog6.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog7.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog8.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog9.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Fireball.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Font.spritefont</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 2.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 3.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 4.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 5.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 6.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Attack.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Dead.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Hit.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Idle.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton React.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Walk.png</File>
-    <File>C:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/StartBackground.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_AttackCombo2hit.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_CrouchAttack.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_CrouchFull.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_CrouchWalk.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Dash.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Death.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Fall.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Hit.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Idle.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Jump.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_JumpFallInbetween.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_Run.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_SlideFull.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/_TurnAround.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/background_music.mp3</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/DemonAttack.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/DemonFly.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/DemonIdle.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog1.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog10.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog2.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog3.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog4.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog5.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog6.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog7.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog8.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Diyalog9.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Fireball.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Font.spritefont</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Sahne 2.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Sahne 3.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Sahne 4.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Sahne 5.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Sahne 6.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton Attack.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton Dead.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton Hit.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton Idle.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton React.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/Skeleton Walk.png</File>
+    <File>C:/Users/User/Desktop/College/Second Year/Second Semester/Game Programming 2/Gruesome-Betrayal-Last/Betrayal/Content/StartBackground.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -526,6 +526,7 @@ public class Game1 : Game
                 _spriteBatch.DrawString(_font, "OPTIONS", new Vector2(350, 200), Color.White);
                 _spriteBatch.DrawString(_font, "CREDITS", new Vector2(350, 250), Color.White);
                 _spriteBatch.DrawString(_font, "EXIT", new Vector2(370, 300), Color.White);
+                _spriteBatch.DrawString(_font, "Made by Yamen Alamer & Yusuf Sahin Sekman", new Vector2(20, 455), Color.LightGray);
             }
         }
         else if (currentSciene == CurrentSciene.Sciene_2)
@@ -600,10 +601,9 @@ public class Game1 : Game
                 _spriteBatch.DrawString(_font, "aamatniekss", new Vector2(320, 180), Color.White);
                 _spriteBatch.DrawString(_font, "Mattz Art", new Vector2(320, 220), Color.White);
                 _spriteBatch.DrawString(_font, "motionvibe.club", new Vector2(320, 260), Color.White);
-                
-                _spriteBatch.DrawString(_font, "MADE BY", new Vector2(320, 320), Color.Yellow);
-                _spriteBatch.DrawString(_font, "Yamen Alamer", new Vector2(320, 360), Color.White);
-                _spriteBatch.DrawString(_font, "Yusuf Sahin Sekman", new Vector2(320, 400), Color.White);
+
+                _spriteBatch.DrawString(_font, "MUSIC BY", new Vector2(320, 320), Color.Yellow);
+                _spriteBatch.DrawString(_font, "alkakrab", new Vector2(320, 360), Color.White);
 
                 _spriteBatch.DrawString(_font, "BACK", new Vector2(350, 440), Color.White);
             }

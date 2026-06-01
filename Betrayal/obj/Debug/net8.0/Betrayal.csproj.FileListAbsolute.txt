@@ -238,3 +238,86 @@ C:\Users\User\Desktop\Gruesome-Betrayal-Last-main\Betrayal\obj\Debug\net8.0\ref\
 C:\Users\User\Desktop\Gruesome-Betrayal-Last-main\Betrayal\bin\Debug\net8.0\Content\StartBackground.xnb
 C:\Users\User\Desktop\Gruesome-Betrayal-Last-main\Betrayal\bin\Debug\net8.0\Content\background_music.ogg
 C:\Users\User\Desktop\Gruesome-Betrayal-Last-main\Betrayal\bin\Debug\net8.0\Content\background_music.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog 1.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 2.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 3.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 4.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 5.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 6.png
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\DemonAttack.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\DemonFly.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\DemonIdle.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog1.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog10.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog2.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog3.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog4.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog5.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog6.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog7.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog8.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Diyalog9.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Fireball.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Font.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 2.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 3.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 4.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 5.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Sahne 6.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton Attack.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton Dead.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton Hit.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton Idle.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton React.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\Skeleton Walk.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_AttackCombo2hit.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_CrouchAttack.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_CrouchFull.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_CrouchWalk.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Dash.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Death.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Fall.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Hit.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Idle.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Jump.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_JumpFallInbetween.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_Run.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_SlideFull.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\_TurnAround.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\background_music.ogg
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\background_music.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Content\StartBackground.xnb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Betrayal.exe
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Betrayal.deps.json
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Betrayal.runtimeconfig.json
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Betrayal.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\Betrayal.pdb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\NVorbis.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\mgcb.tool.restore
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.AssemblyInfo.cs
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.sourcelink.json
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.csproj.Up2Date
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\refint\Betrayal.dll
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.pdb
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\Betrayal.genruntimeconfig.cache
+C:\Users\User\Desktop\College\Second Year\Second Semester\Game Programming 2\Gruesome-Betrayal-Last\Betrayal\obj\Debug\net8.0\ref\Betrayal.dll
