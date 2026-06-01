@@ -11,16 +11,11 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-
-    Video finalVideo;
-    VideoPlayer videoPlayer;
-    bool playingFinalVideo = false;
     Texture2D sciene2Picture;
     Texture2D sciene3Picture;
     Texture2D sciene4Picture;
     Texture2D sciene5Picture;
     Texture2D sciene6Picture;
-
 
     public List<Texture2D> sciene1Dialogue = new List<Texture2D>();
     public List<Texture2D> sciene6Dialogue = new List<Texture2D>();
@@ -29,8 +24,9 @@ public class Game1 : Game
     int DiyalogSirasi6 = 0;
     bool diyalogAktifMi2 = false;
     bool diyalogAktifMi6 = false;
+    bool diyalogTamamlandi2 = false;
+    bool diyalogTamamlandi6 = false;
     MouseState oncekiFareDurumu;
-
 
     public Character mainCharacter; 
     public Sciene2 sciene2 = new Sciene2();
@@ -49,7 +45,7 @@ public class Game1 : Game
     public List<Fireball> activeFireballs = new List<Fireball>();
     public bool hasPlayerMovedInScene5 = false;
 
-    CurrentSciene currentSciene = CurrentSciene.Sciene_2;
+    CurrentSciene currentSciene = CurrentSciene.StartScreen;
 
     private KeyboardState _previousKeyboardState;
     private MouseState _previousMouseState;
@@ -57,6 +53,17 @@ public class Game1 : Game
     public MenuState menuState = MenuState.Hidden;
     private SpriteFont _font;
     private Texture2D _blankTexture;
+    private Texture2D _startBackground;
+    private float _deathResetTimer = 0f;
+    private Song _bgm;
+
+    private int _startBgCurrentFrame = 0;
+    private float _startBgTimer = 0f;
+    private const float StartBgFrameTime = 0.04f;
+    private const int StartBgFrameCount = 44;
+    private const int StartBgCols = 5;
+    private const int StartBgFrameWidth = 1920;
+    private const int StartBgFrameHeight = 1080;
 
     public Game1()
     {
@@ -74,6 +81,11 @@ public class Game1 : Game
         _font = Content.Load<SpriteFont>("Font");
         _blankTexture = new Texture2D(GraphicsDevice, 1, 1);
         _blankTexture.SetData(new[] { Color.White });
+        _startBackground = Content.Load<Texture2D>("StartBackground");
+
+        _bgm = Content.Load<Song>("background_music");
+        MediaPlayer.Play(_bgm);
+        MediaPlayer.IsRepeating = true;
 
         sciene2Picture = Content.Load<Texture2D>("Sahne 2.png");
         sciene2.picture2 = sciene2Picture;
@@ -113,9 +125,6 @@ public class Game1 : Game
         sciene6Dialogue.Add(Content.Load<Texture2D>("LuisDiyalog5.png"));
         sciene6Dialogue.Add(Content.Load<Texture2D>("LuisDiyalog6.png"));
 
-
-
-        // loads all the spritesheets for our player
         mainCharacter = new Character(
             Content.Load<Texture2D>("_Idle"),
             Content.Load<Texture2D>("_Run"),
@@ -134,7 +143,19 @@ public class Game1 : Game
             new Vector2(100, 300)
         );
 
-        // loads all the spritesheets for the skeleton
+        ResetEnemies();
+
+        demonIdleTex = Content.Load<Texture2D>("DemonIdle");
+        demonFlyTex = Content.Load<Texture2D>("DemonFly");
+        demonAttackTex = Content.Load<Texture2D>("DemonAttack");
+        fireballTex = Content.Load<Texture2D>("Fireball");
+
+        flyingDemon = new FlyingDemon(demonIdleTex, demonFlyTex, demonAttackTex, new Vector2(400, 20));
+    }
+
+    private void ResetEnemies()
+    {
+        scene4Enemies.Clear();
         Texture2D skelIdle = Content.Load<Texture2D>("Skeleton Idle");
         Texture2D skelWalk = Content.Load<Texture2D>("Skeleton Walk");
         Texture2D skelReact = Content.Load<Texture2D>("Skeleton React");
@@ -152,13 +173,22 @@ public class Game1 : Game
 
         scene4Enemies.Add(s4Enemy1);
         scene4Enemies.Add(s4Enemy2);
+    }
 
-        demonIdleTex = Content.Load<Texture2D>("DemonIdle");
-        demonFlyTex = Content.Load<Texture2D>("DemonFly");
-        demonAttackTex = Content.Load<Texture2D>("DemonAttack");
-        fireballTex = Content.Load<Texture2D>("Fireball");
+    private void ResetLevel()
+    {
+        mainCharacter.position = new Vector2(50, 300);
+        mainCharacter.Health = 5;
+        mainCharacter.state = CharacterStateAnim.Idle;
+        mainCharacter.speed = Vector2.Zero;
+        mainCharacter.iFrameTimer = 0f;
 
-        flyingDemon = new FlyingDemon(demonIdleTex, demonFlyTex, demonAttackTex, new Vector2(400, 20));
+        ResetEnemies();
+
+        hasPlayerMovedInScene5 = false;
+        activeFireballs.Clear(); 
+        flyingDemon.Position = new Vector2(400, 20); 
+        flyingDemon.State = DemonState.Idle; 
     }
 
     protected override void Update(GameTime gameTime)
@@ -166,7 +196,44 @@ public class Game1 : Game
         KeyboardState currentKeyboardState = Keyboard.GetState();
         MouseState currentMouseState = Mouse.GetState();
 
+        if (currentSciene == CurrentSciene.StartScreen)
+        {
+            _startBgTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (_startBgTimer >= StartBgFrameTime)
+            {
+                _startBgTimer = 0f;
+                _startBgCurrentFrame++;
+                if (_startBgCurrentFrame >= StartBgFrameCount)
+                {
+                    _startBgCurrentFrame = 0;
+                }
+            }
 
+            if (currentMouseState.LeftButton == ButtonState.Pressed && _previousMouseState.LeftButton == ButtonState.Released)
+            {
+                Rectangle mouseRect = new Rectangle(currentMouseState.X, currentMouseState.Y, 1, 1);
+                
+                if (menuState == MenuState.Hidden)
+                {
+                    if (mouseRect.Intersects(new Rectangle(300, 150, 200, 40))) 
+                    {
+                        currentSciene = CurrentSciene.Sciene_2;
+                    }
+                    if (mouseRect.Intersects(new Rectangle(300, 200, 200, 40))) menuState = MenuState.Controls;
+                    if (mouseRect.Intersects(new Rectangle(300, 250, 200, 40))) menuState = MenuState.Credits;
+                    if (mouseRect.Intersects(new Rectangle(300, 300, 200, 40))) Exit();
+                }
+                else 
+                {
+                    if (mouseRect.Intersects(new Rectangle(300, 440, 200, 40))) menuState = MenuState.Hidden;
+                }
+            }
+
+            _previousKeyboardState = currentKeyboardState;
+            _previousMouseState = currentMouseState;
+            oncekiFareDurumu = currentMouseState;
+            return; 
+        }
 
         if (currentKeyboardState.IsKeyDown(Keys.Escape) && !_previousKeyboardState.IsKeyDown(Keys.Escape))
         {
@@ -189,7 +256,7 @@ public class Game1 : Game
                 }
                 else if (menuState == MenuState.Controls || menuState == MenuState.Credits)
                 {
-                    if (mouseRect.Intersects(new Rectangle(300, 400, 200, 40))) menuState = MenuState.Main;
+                    if (mouseRect.Intersects(new Rectangle(300, 440, 200, 40))) menuState = MenuState.Main;
                 }
             }
 
@@ -198,12 +265,30 @@ public class Game1 : Game
             return; 
         }
 
-        // resets player if they fall off the map
+        if (mainCharacter.state == CharacterStateAnim.Dead)
+        {
+            _deathResetTimer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            
+            mainCharacter.UpdateAnimations(gameTime);
+
+            if (_deathResetTimer >= 2.0f)
+            {
+                ResetLevel();
+                _deathResetTimer = 0f;
+            }
+            _previousKeyboardState = currentKeyboardState;
+            _previousMouseState = currentMouseState;
+            oncekiFareDurumu = currentMouseState;
+            return;
+        }
+
         Rectangle resetHitBox = new Rectangle(-200, 500, 1100, 10);
         if (mainCharacter.HitBox.Intersects(resetHitBox))
         {
-            mainCharacter.position = new Vector2(50, 300);
+            ResetLevel();
         }
+
+        mainCharacter.IsDialogueActive = diyalogAktifMi2 || diyalogAktifMi6;
 
         mainCharacter.Update(gameTime);
         mainCharacter.IsGrounded = false;
@@ -219,27 +304,21 @@ public class Game1 : Game
 
                 Rectangle diyalogTetikleyici1 = new Rectangle(370, 370, 1, 50);
 
-                if(mainCharacter.HitBox.Intersects(diyalogTetikleyici1))
+                if(!diyalogTamamlandi2 && mainCharacter.HitBox.Intersects(diyalogTetikleyici1))
                 {
                     diyalogAktifMi2 = true;
                 }
 
-
                 if (diyalogAktifMi2)
                 {
-                    mainCharacter.speed.X = 0;
-                    mainCharacter.position.X = 350;
-                    mainCharacter.speed.Y = 0;
-                   
                     if (currentMouseState.LeftButton == ButtonState.Released && oncekiFareDurumu.LeftButton == ButtonState.Pressed)
                     {
-                    
                         DiyalogSirasi2++;
 
-                    
                         if (DiyalogSirasi2 >= sciene1Dialogue.Count)
                         {
                             diyalogAktifMi2 = false;
+                            diyalogTamamlandi2 = true;
                             DiyalogSirasi2 = 0;
                         }
                     }
@@ -249,7 +328,6 @@ public class Game1 : Game
                 {
                     currentSciene = CurrentSciene.Sciene_3;
                     mainCharacter.position = new Vector2(50, 300);
-
                 }
                 break;
 
@@ -268,7 +346,6 @@ public class Game1 : Game
             case CurrentSciene.Sciene_4:
                 foreach (Rectangle box in sciene4.HitBoxSciene4()) ResolveCollision(box);
 
-                // move the skeleton logic
                 foreach (Enemy e in scene4Enemies)
                 {
                     e.Update(gameTime, new Vector2(mainCharacter.position.X + (mainCharacter.frameWeight / 2f), mainCharacter.position.Y + (mainCharacter.frameHeight / 2f)));
@@ -328,27 +405,21 @@ public class Game1 : Game
 
                 Rectangle diyalogTetikleyici6 = new Rectangle(350, 380, 1, 50);
 
-                if(mainCharacter.HitBox.Intersects(diyalogTetikleyici6))
+                if(!diyalogTamamlandi6 && mainCharacter.HitBox.Intersects(diyalogTetikleyici6))
                 {
                     diyalogAktifMi6= true;
                 }
 
-
                 if (diyalogAktifMi6)
                 {
-                    mainCharacter.speed.X = 0;
-                    mainCharacter.position.X = 310;
-                    mainCharacter.speed.Y = 0;
-
                     if (currentMouseState.LeftButton == ButtonState.Released && oncekiFareDurumu.LeftButton == ButtonState.Pressed)
                     {
-
                         DiyalogSirasi6++;
-
 
                         if (DiyalogSirasi6 >= sciene6Dialogue.Count)
                         {
                             diyalogAktifMi6 = false;
+                            diyalogTamamlandi6 = true;
                             DiyalogSirasi6 = 0;
                         }
                     }
@@ -357,10 +428,8 @@ public class Game1 : Game
                 break;
         }
 
-        // now that we know if we are on the floor, calculate what animation to play
         mainCharacter.UpdateAnimations(gameTime);
 
-        // if the player swings their sword, check if it hits the skeleton's body
         Rectangle? sword = mainCharacter.WeaponHitBox;
         if (currentSciene == CurrentSciene.Sciene_4)
         {
@@ -371,7 +440,6 @@ public class Game1 : Game
                     e.TakeDamage(1, mainCharacter.position.X + (mainCharacter.frameWeight / 2f));
                 }
 
-                // if the skeleton swings his sword, check if it hits our player's body
                 Rectangle? enemySword = e.WeaponHitBox;
                 if (enemySword.HasValue && enemySword.Value.Intersects(mainCharacter.HitBox))
                 {
@@ -382,7 +450,6 @@ public class Game1 : Game
         
         _previousKeyboardState = currentKeyboardState;
         _previousMouseState = currentMouseState;
-
         oncekiFareDurumu = currentMouseState;
 
         base.Update(gameTime);
@@ -424,7 +491,6 @@ public class Game1 : Game
             }
         }
 
-        // this is the floor collision, we add +1 to the height so we constantly touch the floor
         hitBox = mainCharacter.HitBox;
         Rectangle footSensor = new Rectangle(hitBox.X + 2, hitBox.Bottom, hitBox.Width - 4, 2);
         if (footSensor.Intersects(box))
@@ -443,25 +509,37 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // point clamp stops pixel art from looking blurry when the camera moves
         _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
         
-        if (currentSciene == CurrentSciene.Sciene_2)
+        if (currentSciene == CurrentSciene.StartScreen)
+        {
+            int row = _startBgCurrentFrame / StartBgCols;
+            int col = _startBgCurrentFrame % StartBgCols;
+            Rectangle sourceRect = new Rectangle(col * StartBgFrameWidth, row * StartBgFrameHeight, StartBgFrameWidth, StartBgFrameHeight);
+            
+            _spriteBatch.Draw(_startBackground, new Rectangle(0, 0, 800, 480), sourceRect, Color.White);
+
+            if (menuState == MenuState.Hidden)
+            {
+                _spriteBatch.DrawString(_font, "GRUESOME BETRAYAL", new Vector2(310, 50), Color.Yellow);
+                _spriteBatch.DrawString(_font, "PLAY", new Vector2(370, 150), Color.White);
+                _spriteBatch.DrawString(_font, "OPTIONS", new Vector2(350, 200), Color.White);
+                _spriteBatch.DrawString(_font, "CREDITS", new Vector2(350, 250), Color.White);
+                _spriteBatch.DrawString(_font, "EXIT", new Vector2(370, 300), Color.White);
+            }
+        }
+        else if (currentSciene == CurrentSciene.Sciene_2)
         {
             sciene2.Draw(_spriteBatch);
             if (diyalogAktifMi2)
             {
-                
                 Rectangle diyalogKonumu = new Rectangle(0, 0, 800, 480);
-
-               
                 _spriteBatch.Draw(sciene1Dialogue[DiyalogSirasi2], diyalogKonumu, Color.White);
             }
         }
         else if (currentSciene == CurrentSciene.Sciene_3)
         {
             sciene3.Draw(_spriteBatch);
-
         }
         else if (currentSciene == CurrentSciene.Sciene_4) 
         {
@@ -483,16 +561,15 @@ public class Game1 : Game
             sciene6.Draw(_spriteBatch);
             if (diyalogAktifMi6)
             {
-                
                 Rectangle diyalogKonumu = new Rectangle(0, 0, 800, 480);
-
-               
                 _spriteBatch.Draw(sciene6Dialogue[DiyalogSirasi6], diyalogKonumu, Color.White);
             }
         }
         
-        
-        mainCharacter.Draw(_spriteBatch);
+        if (currentSciene != CurrentSciene.StartScreen)
+        {
+            mainCharacter.Draw(_spriteBatch);
+        }
 
         if (menuState != MenuState.Hidden)
         {
@@ -514,16 +591,21 @@ public class Game1 : Game
                 _spriteBatch.DrawString(_font, "Shift : Dash", new Vector2(280, 270), Color.White);
                 _spriteBatch.DrawString(_font, "Left Click : Attack", new Vector2(280, 310), Color.White);
                 
-                _spriteBatch.DrawString(_font, "BACK", new Vector2(350, 400), Color.White);
+                _spriteBatch.DrawString(_font, "BACK", new Vector2(350, 440), Color.White);
             }
             else if (menuState == MenuState.Credits)
             {
-                _spriteBatch.DrawString(_font, "SPECIAL THANKS TO OUR ASSET CREATORS", new Vector2(200, 100), Color.Yellow);
-                _spriteBatch.DrawString(_font, "Jesse Munguia", new Vector2(320, 180), Color.White);
-                _spriteBatch.DrawString(_font, "aamatniekss", new Vector2(320, 230), Color.White);
-                _spriteBatch.DrawString(_font, "Mattz Art", new Vector2(320, 280), Color.White);
+                _spriteBatch.DrawString(_font, "SPECIAL THANKS TO OUR ASSET CREATORS", new Vector2(200, 80), Color.Yellow);
+                _spriteBatch.DrawString(_font, "Jesse Munguia", new Vector2(320, 140), Color.White);
+                _spriteBatch.DrawString(_font, "aamatniekss", new Vector2(320, 180), Color.White);
+                _spriteBatch.DrawString(_font, "Mattz Art", new Vector2(320, 220), Color.White);
+                _spriteBatch.DrawString(_font, "motionvibe.club", new Vector2(320, 260), Color.White);
                 
-                _spriteBatch.DrawString(_font, "BACK", new Vector2(350, 400), Color.White);
+                _spriteBatch.DrawString(_font, "MADE BY", new Vector2(320, 320), Color.Yellow);
+                _spriteBatch.DrawString(_font, "Yamen Alamer", new Vector2(320, 360), Color.White);
+                _spriteBatch.DrawString(_font, "Yusuf Sahin Sekman", new Vector2(320, 400), Color.White);
+
+                _spriteBatch.DrawString(_font, "BACK", new Vector2(350, 440), Color.White);
             }
         }
 
@@ -535,7 +617,7 @@ public class Game1 : Game
 
 public enum CurrentSciene
 {
-    Sciene_1, Sciene_2, Sciene_3, Sciene_4, Sciene_5, Sciene_6
+    StartScreen, Sciene_1, Sciene_2, Sciene_3, Sciene_4, Sciene_5, Sciene_6
 }
 
 public enum MenuState 

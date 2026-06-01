@@ -9,7 +9,6 @@ public enum CharacterState
 {
     Stopping, Walking, Jumping
 }
-
 public enum CharacterStateAnim
 {
     Idle, Run, Jump, JumpApex, Fall,
@@ -31,16 +30,16 @@ public class Character
     public bool IsGrounded = false;
     public bool canDoubleJump = false;
     public bool IsCeilingAbove = false;
+    public bool IsDialogueActive = false;
 
     public Texture2D SpriteSheet;
+
 
     public int frameWeight = 120;  
     public int frameHeight = 80; 
     public int jumpTime = 0;
     private int _currentFrame = 0;
     private float _timer = 0f;
-    
-    // player stats and combat trackers
     public int Health = 5;
     private int _comboStep = 0;
     private bool _continueCombo = false;
@@ -63,6 +62,7 @@ public class Character
     private const int AttackFrameCount = 10, HitFrameCount = 1, DeadFrameCount = 10; 
     private const int DashFrameCount = 2, SlideFrameCount = 4, CrouchFrameCount = 3;         
     private const int CrouchWalkFrameCount = 8, CrouchAttackFrameCount = 4, TurnAroundFrameCount = 3; 
+
 
     // checks if we are doing any crouch moves so we can shrink the hitbox
     public bool IsCrouching => state == CharacterStateAnim.Crouch || state == CharacterStateAnim.CrouchWalk || state == CharacterStateAnim.CrouchAttack || state == CharacterStateAnim.Slide;
@@ -120,10 +120,20 @@ public class Character
         // count down the iframes so we aren't invincible forever
         if (iFrameTimer > 0) iFrameTimer -= dt;
 
-        if (IsGrounded) canDoubleJump = true;
-
         KeyboardState keys = Keyboard.GetState();
         MouseState mouse = Mouse.GetState();
+
+        // freeze the player completely during dialogue so they cannot attack or move
+        if (IsDialogueActive)
+        {
+            speed = Vector2.Zero;
+            SetState(CharacterStateAnim.Idle);
+            _previousMouse = mouse;
+            _previousKeys = keys;
+            return;
+        }
+
+        if (IsGrounded) canDoubleJump = true;
 
         // if we get hit, let gravity work but ignore player inputs
         if (state == CharacterStateAnim.Hit)
@@ -160,7 +170,7 @@ public class Character
         // this is the combat input
         if (mouse.LeftButton == ButtonState.Pressed && _previousMouse.LeftButton == ButtonState.Released && IsGrounded)
         {
-            if (keys.IsKeyDown(Keys.S) || IsCeilingAbove)
+            if (keys.IsKeyDown(Keys.S))
             {
                 SetState(CharacterStateAnim.CrouchAttack);
             }
@@ -338,8 +348,6 @@ public class Character
                     // animations that return to idle when finished
                     else if (state == CharacterStateAnim.TurnAround || state == CharacterStateAnim.CrouchAttack)
                         SetState(CharacterStateAnim.Idle);
-                    
-                    // animations that loop infinitely
                     else _currentFrame = 0; 
                 }
             }

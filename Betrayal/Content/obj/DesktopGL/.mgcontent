@@ -4,48 +4,52 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_AttackCombo2hit.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_CrouchAttack.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_CrouchFull.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_CrouchWalk.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Dash.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Death.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Fall.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Hit.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Idle.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Jump.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_JumpFallInbetween.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_Run.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_SlideFull.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/_TurnAround.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/DemonAttack.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/DemonFly.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/DemonIdle.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog1.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog10.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog2.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog3.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog4.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog5.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog6.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog7.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog8.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Diyalog9.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Fireball.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Font.spritefont</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Sahne 2.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Sahne 3.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Sahne 4.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Sahne 5.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Sahne 6.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton Attack.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton Dead.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton Hit.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton Idle.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton React.png</File>
-    <File>c:/Users/malat/Documents/Gruesome Betrayal/Betrayal/Content/Skeleton Walk.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_AttackCombo2hit.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchAttack.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchFull.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_CrouchWalk.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Dash.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Death.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Fall.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Hit.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Idle.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Jump.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_JumpFallInbetween.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_Run.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_SlideFull.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/_TurnAround.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/background_music.mp3</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonAttack.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonFly.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/DemonIdle.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog1.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog10.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog2.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog3.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog4.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog5.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog6.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog7.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog8.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Diyalog9.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Fireball.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Font.spritefont</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 2.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 3.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 4.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 5.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Sahne 6.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Attack.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Dead.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Hit.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Idle.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton React.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/Skeleton Walk.png</File>
+    <File>c:/Users/User/Desktop/Gruesome-Betrayal-Last-main/Betrayal/Content/StartBackground.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
